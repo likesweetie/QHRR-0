@@ -1,0 +1,16 @@
+[StartTime]
+thigh(1) - 2-정적 해석 2.MFC=2s
+[SolverState]
+thigh(1) - 2-정적 해석 2.MFC=2
+[MainFrame]
+thigh(1) - 2-정적 해석 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAGICAAAAA
+[ShowMin]
+thigh(1) - 2-정적 해석 2.MFC=No
+[SolverType]
+thigh(1) - 2-정적 해석 2.MFC=선형 해석
+[StudyType]
+thigh(1) - 2-정적 해석 2.MFC=0
+[StudyName]
+thigh(1) - 2-정적 해석 2.MFC=정적 해석 2
+[Solver]
+thigh(1) - 2-정적 해석 2.MFC=Sparse

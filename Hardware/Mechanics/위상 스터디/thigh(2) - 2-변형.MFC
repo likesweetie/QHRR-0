@@ -1,0 +1,16 @@
+[StartTime]
+thigh(2) - 2-변형.MFC=1s
+[SolverState]
+thigh(2) - 2-변형.MFC=2
+[MainFrame]
+thigh(2) - 2-변형.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAGICAAAAA
+[ShowMin]
+thigh(2) - 2-변형.MFC=No
+[SolverType]
+thigh(2) - 2-변형.MFC=선형 해석
+[StudyType]
+thigh(2) - 2-변형.MFC=0
+[StudyName]
+thigh(2) - 2-변형.MFC=변형
+[Solver]
+thigh(2) - 2-변형.MFC=Sparse

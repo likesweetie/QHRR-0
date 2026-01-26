@@ -1,0 +1,16 @@
+[StartTime]
+calf-1-정적 해석 2.MFC=5s
+[SolverState]
+calf-1-정적 해석 2.MFC=2
+[MainFrame]
+calf-1-정적 해석 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAGICAAAAA
+[ShowMin]
+calf-1-정적 해석 2.MFC=No
+[SolverType]
+calf-1-정적 해석 2.MFC=선형 해석
+[StudyType]
+calf-1-정적 해석 2.MFC=0
+[StudyName]
+calf-1-정적 해석 2.MFC=정적 해석 2
+[Solver]
+calf-1-정적 해석 2.MFC=Iterative
