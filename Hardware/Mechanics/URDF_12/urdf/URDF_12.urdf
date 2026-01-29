@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="URDF_12">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.038225 -0.045584 0.12824"
+        rpy="0 0 0" />
+      <mass
+        value="2.20928" />
+      <inertia
+        ixx="0.0039704"
+        ixy="2.6662E-05"
+        ixz="5.7974E-06"
+        iyy="0.0055375"
+        iyz="2.1256E-06"
+        izz="0.0080598" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Hip_link">
+    <inertial>
+      <origin
+        xyz="0.013108 -0.044177 0.00034503"
+        rpy="0 0 0" />
+      <mass
+        value="1.00799" />
+      <inertia
+        ixx="0.00018713"
+        ixy="-3.0023E-08"
+        ixz="6.9168E-08"
+        iyy="0.00011382"
+        iyz="4.6352E-06"
+        izz="8.916E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Hip_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Hip_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Hip"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Hip_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.4399"
+      upper="1.4399"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Thigh_link">
+    <inertial>
+      <origin
+        xyz="-0.075591 -0.0076549 -0.091964"
+        rpy="0 0 0" />
+      <mass
+        value="2.00827" />
+      <inertia
+        ixx="0.012828"
+        ixy="1.1342E-06"
+        ixz="-1.7039E-05"
+        iyy="0.012075"
+        iyz="-0.00024099"
+        izz="0.00082748" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Thigh_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Thigh_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Thigh"
+    type="revolute">
+    <origin
+      xyz="-0.0082 -0.058 0"
+      rpy="0 0 0" />
+    <parent
+      link="Hip_link" />
+    <child
+      link="Thigh_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-2.9845"
+      upper="2.9845"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Calf_link">
+    <inertial>
+      <origin
+        xyz="0.000235828141353409 0.0117246312395909 -0.152929505146333"
+        rpy="0 0 0" />
+      <mass
+        value="0.533810178999466" />
+      <inertia
+        ixx="0.0076992247838026"
+        ixy="2.80951023961327E-10"
+        ixz="3.68529334750753E-10"
+        iyy="0.00758489863409158"
+        iyz="0.000426074550936931"
+        izz="0.00016402112102885" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Calf_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_12/meshes/Calf_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Calf"
+    type="revolute">
+    <origin
+      xyz="-0.089 0 -0.35"
+      rpy="0 0 0" />
+    <parent
+      link="Thigh_link" />
+    <child
+      link="Calf_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0.294"
+      upper="2.793"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
